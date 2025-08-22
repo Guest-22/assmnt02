@@ -119,15 +119,15 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        int num1 = Integer.parseInt(input1);
-        int num2 = Integer.parseInt(input2);
+        double num1 = Integer.parseInt(input1);
+        double num2 = Integer.parseInt(input2);
 
         if (num2 == 0){
             txteResult.setText("Cannot divide by zero.");
             return;
         }
 
-        int result = num1 / num2;
+        double result = num1 / num2;
 
         txteResult.setText(String.valueOf(result));
     }
